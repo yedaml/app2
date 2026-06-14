@@ -1,0 +1,6 @@
+{
+  "name": "대화분석기",
+  "description": "채팅 로그 데이터를 분석해 대화 상대간의 객관적 소통 행동 특징과 성향을 분석하고 기분 좋은 대화 가이드를 제공하는 프라이버시 우선형 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

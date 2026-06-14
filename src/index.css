@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Beautiful custom cyber dark scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #04020a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e1531;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3c2a61;
+  }
+
+  /* Fade actions */
+  input, textarea {
+    color-scheme: dark;
+  }
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
